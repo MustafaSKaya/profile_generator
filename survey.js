@@ -5,6 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+
 rl.question('What\'s your name? Nicknames are also acceptable :) ', (answer) => {
   let name = answer;
   rl.question("What\'s an activity you like doing? ", (answer) => {
